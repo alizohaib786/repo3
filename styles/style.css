@@ -1,0 +1,53 @@
+nav {
+    letter-spacing: 3px;
+    padding: 0 20px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.19);
+}
+
+.navbar-nav a {
+    margin: 0 10px;
+}
+
+#section1 {
+    background-image: url(../assets/images/architect.jpg);
+    min-height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div#section1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.col .logo1,
+.logo2 {
+    word-spacing: 5px;
+    opacity: 0.75;
+    letter-spacing: 2px;
+}
+
+.logo1 {
+    display: inline-block;
+    background-color: black;
+    font-size: 25px;
+    padding: 4px;
+}
+
+.logo2 {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.h1-text {
+    font-size: 14px;
+}
+#section2 .card {
+    margin-bottom: 1rem;
+}
+
+#section3 img {
+    filter: grayscale(70%);
+}
